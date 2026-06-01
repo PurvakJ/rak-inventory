@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>BoxStock | Unified Filters · Boxy UI</title>
+  <title>BoxStock | Unified Filters · INVENTORY UI</title>
   <!-- jsPDF + autoTable -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
@@ -27,7 +27,7 @@
       transition: all 0.1s linear;
       border: none;
     }
-    /* Toast - sharp boxy */
+    /* Toast - sharp INVENTORY */
     .toast {
       position: fixed;
       bottom: 30px;
@@ -50,7 +50,7 @@
     .toast.success { background: #0b2f26; border-left-color: #2ecc71; }
     .toast.error { background: #4a1515; border-left-color: #e74c3c; }
 
-    /* LOGIN - boxy */
+    /* LOGIN - INVENTORY */
     #loginPage {
       height: 100vh;
       display: flex;
@@ -466,7 +466,7 @@
 <body>
 <div id="loginPage">
   <div class="login-box">
-    <h2>📦 BOXY STOCK</h2>
+    <h2>📦 INVENTORY STOCK</h2>
     <input type="text" id="username" placeholder="Username" autocomplete="off">
     <input type="password" id="password" placeholder="Password">
     <button onclick="login()">ENTER →</button>
@@ -475,7 +475,7 @@
 
 <div id="app">
   <div class="toast" id="toastMsg"></div>
-  <div class="mobile-top"><h2>📦 BOXY</h2><button onclick="toggleSidebar()">☰ MENU</button></div>
+  <div class="mobile-top"><h2>📦 INVENTORY</h2><button onclick="toggleSidebar()">☰ MENU</button></div>
   <div class="layout">
     <div class="sidebar" id="sidebar">
       <h2>BOXSTOCK</h2>
